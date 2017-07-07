@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/beaconContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.lg2gent.protobeacon.BeaconDistanceActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/beacon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/beacon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/beacon1"
+            android:layout_marginBottom="8dp"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+        <TextView
+            android:id="@+id/beacon3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/beacon2"
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

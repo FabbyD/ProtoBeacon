@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ProtoBeacon</string>
+
+    <!-- Main Activity -->
+    <string name="main_label">Proto Beacon</string>
+    <string name="main_start_button">Start Beaconing</string>
+    <string name="triangulation_start_button">Start Triangulating</string>
+
+    <!-- Beacon Activity -->
+    <string name="beacon_settings">Settings</string>
+    <string name="beacon_permission_denied_explanation">
+        Permissions are required for this app to work.
+        You can set them in the app\'s settings later.
+    </string>
+    <string name="beacon_permission_rationale">
+        Permissions are required for this app to work. Click here to set them.
+    </string>
+    <string name="beacon_ok">Ask again</string>
+
+    <!-- Camera fragment -->
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+            you can display camera preview and take pictures.
+
+
+        ]]>
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
